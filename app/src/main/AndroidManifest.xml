@@ -14,6 +14,7 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3895931842313770~2188036959" />
+
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true"

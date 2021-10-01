@@ -1,6 +1,7 @@
 package com.rijaldev.kuiskocakseru.ui.model
 
-import com.rijaldev.kuiskocakseru.R
+import kotlin.collections.ArrayList
+import kotlin.collections.shuffle
 
 object DataTech {
     private val pertanyaan = arrayOf("RAM merupakan kependekan dari...",
@@ -88,6 +89,7 @@ object DataTech {
                 quest.jawaban = jawaban[position]
                 list.add(quest)
             }
+            list.shuffle()
             return list
         }
 }

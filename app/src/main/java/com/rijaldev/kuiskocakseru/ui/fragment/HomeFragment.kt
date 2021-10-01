@@ -16,6 +16,8 @@ import android.widget.FrameLayout
 import androidx.appcompat.app.AlertDialog
 import com.rijaldev.kuiskocakseru.R
 import com.rijaldev.kuiskocakseru.databinding.FragmentHomeBinding
+import com.rijaldev.kuiskocakseru.ui.MainActivity
+import com.rijaldev.kuiskocakseru.ui.OnBackPressed
 
 class HomeFragment : Fragment() {
 
@@ -81,11 +83,11 @@ class HomeFragment : Fragment() {
                 setIcon(R.drawable.logout)
                 setTitle(R.string.keluar)
                 setMessage("\nSemua data akan di hapus, lanjutkan?\n")
-                setNeutralButton("Ya") { _, _ ->
+                setPositiveButton("Ya") { _, _ ->
                     mp.start()
                     Handler(Looper.getMainLooper()).postDelayed({ logOut() }, 1000L)
                 }
-                setPositiveButton("Tidak", null)
+                setNegativeButton("Tidak", null)
             }
             alert.create()
             alert.show()

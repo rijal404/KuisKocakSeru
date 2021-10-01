@@ -88,6 +88,7 @@ object DataMath {
                 quest.jawaban = jawaban[position]
                 list.add(quest)
             }
+            list.shuffle()
             return list
         }
 }

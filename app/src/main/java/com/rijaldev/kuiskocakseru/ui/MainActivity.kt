@@ -1,11 +1,14 @@
 package com.rijaldev.kuiskocakseru.ui
 
 import android.content.Context
+import android.content.DialogInterface
 import android.content.SharedPreferences
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
+import android.view.KeyEvent
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.google.android.gms.ads.*
@@ -115,6 +118,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111"
+        private const val AD_UNIT_ID = "ca-app-pub-3895931842313770/1178207613"
     }
 }
