@@ -228,7 +228,7 @@ class GambarFragment : Fragment(), View.OnClickListener, OnBackPressed {
 
     private fun setAds() {
         adRequest = AdRequest.Builder().build()
-        InterstitialAd.load(requireContext(),"ca-app-pub-3895931842313770/5377307071", adRequest, object : InterstitialAdLoadCallback() {
+        InterstitialAd.load(requireContext(),"#ISI ID IKLAN ANDA", adRequest, object : InterstitialAdLoadCallback() {
             override fun onAdFailedToLoad(adError: LoadAdError) {
                 mInterstitialAd = null
             }

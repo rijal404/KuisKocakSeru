@@ -118,6 +118,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val AD_UNIT_ID = "ca-app-pub-3895931842313770/1178207613"
+        private const val AD_UNIT_ID = "#ISI ID IKLAN ANDA"
     }
 }
